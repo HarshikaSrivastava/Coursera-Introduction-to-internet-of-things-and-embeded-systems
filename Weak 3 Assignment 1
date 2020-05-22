@@ -1,0 +1,57 @@
+#Research two microcontrollers and provide information about them from their datasheets. 
+There are several microcontroller manufacturers that you can investigate including Atmel, Microchip, Freescale, TI, etc.
+For each microcontroller, report the following information. (Be sure to include a link to an online reference where you
+found this information.)  
+
+Clock frequency
+Bitwidth of the datapath
+Size of Flash memory
+Number of pins
+Does the microcontroller contain an Analog-to-Digital Converter? If so, how many bits of precision does it have?
+Manufacturer: Silicon Labs Microcontroller: EFM8 Busy Bee Family - EFM8BB1 
+
+Clock frequency: Internal 24.5 MHz oscillator with ±2% accuracy Internal 80 kHz low-frequency oscillator External CMOS
+clock option Bitwidth of the datapath: 8-bit Size of Flash memory: Up to 8 kB flash memory, in-system re-programmable from firmware.
+Number of pins: Up to 18 total multifunction I/O pins Does the microcontroller contain an Analog-to-Digital Converter?
+Yes If so, how many bits of precision does it have? 12-Bit Analog-to-Digital Converter (ADC) 
+Datasheet Link: https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+
+
+Manufacturer: RENESAS MCU 
+Microcontroller: RL78/G10
+
+Clock frequency: High-speed system clock - external main system clock input (EXCLK): 1 to 20 MHz: 
+High-speed on-chip oscillator clock - • 1.25 to 20 MHz (VDD =2.7 to 5.5 V) • 1.25 to 5 MHz
+Low-speed on-chip oscillator clock - 15 kHz (TYP) Bitwidth of the datapath: 16-bit 
+Size of Flash memory: Up to 4 kB flash memoryNumber of pins: 16 pinDoes the microcontroller contain an Analog-to-Digital Converter? 
+YES If so, how many bits of precision does it have? 8-/10-bit resolution A/D converter - 7 channels Datasheet 
+Link: https://www.renesas.com/sg/en/doc/products/mpumcu/doc/rl78/r01ds0207ej0310-rl78g10.pdf
+
+#Research the Arduino and Raspberry Pi platforms. 
+
+#Indicate if there are operating systems which can be used on each platform. If there are, list those operating systems
+State whether the operating systems are open source or not. 
+ 
+
+ARDUINO                   OPEN SOURCE
+                                             
+*Linux-based/equivalent        Yes 
+
+The following Arduino models has a Linus-based/equivalent OS: 
+YUN 
+https://store.arduino.cc/usa/arduino-yun-rev-2 
+TIAN https://store.arduino.cc/usa/arduino-tian
+
+INDUSTRIAL 101 https://store.arduino.cc/usa/arduino-industrial-10
+
+
+RASBEERY PI               OPEN SOURCE
+
+Windows 10 IOT Core         Yes
+ Ubuntu Mate                        Yes
+ Snappy Ubuntu Core            Yes
+ Libreelec                                Yes 
+Pinet                                      Yes
+ Risc OS                                  Yes 
+Weather Station                     Yes
+ Ichigojam RPI                         Yes
