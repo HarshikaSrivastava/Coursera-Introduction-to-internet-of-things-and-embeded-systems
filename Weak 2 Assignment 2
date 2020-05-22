@@ -1,0 +1,86 @@
+#Identify two embedded systems that are sold on the market today and analyze their interfaces.
+
+Washing Machine A washing machine from an embedded systems point of view has:
+ Hardware: Buttons, Display& buzzer, electronic circuitry.
+ Software: It has a chip on the circuit that holds the software which drives controls & monitors the variousoperations possible.
+ Mechanical Components: the internals of a washing machine which actually washes the clothes controlWashing Machine
+A washing machine from an embedded systems point of view has:
+ Hardware: Buttons, Display& buzzer, electronic circuitry.
+ Software: It has a chip on the circuit that holds the software which drives controls & monitors the variousoperations possible.
+ Mechanical Components: the internals of a washing machine which actually washes the clothes control
+:Washing Machine A washing machine from an embedded systems point of view has:
+ Hardware: Buttons, Display& buzzer, electronic circuitry.
+ Software: It has a chip on the circuit that holds the software which drives controls & monitors the variousoperations possible.
+ Mechanical Components: the internals of a washing machine which actually washes the clothes controlthe input and output of water,
+the chassis itself.Example 2: Air ConditionerAn Air Conditioner from an embedded systems point of view has:
+ Hardware: Remote, Display & buzzer, Infrared Sensors, electronic circuitry.
+ Software: It has a chip on the circuit that holds the software which drives controls & monitors the variousoperations possible.
+The software monitors the external temperature through the sensors and then releasesthe coolant or suppresses it.
+ Mechanical Components: the internals of an air conditioner the motor, the chassis, the outlet, etc:
+Washing Machine A washing machine from an embedded systems point of view has:
+ Hardware: Buttons, Display& buzzer, electronic circuitry.
+ Software: It has a chip on the circuit that holds the software which drives controls & monitors the variousoperations possible.
+ Mechanical Components: the internals of a washing machine which actually washes the clothes controlthe input and output of water,
+the chassis itself.Example 2: Air ConditionerAn Air Conditioner from an embedded systems point of view has:
+ Hardware: Remote, Display & buzzer, Infrared Sensors, electronic circuitry.
+ Software: It has a chip on the circuit that holds the software which drives controls & monitors the variousoperations possible.
+The software monitors the external temperature through the sensors and then releasesthe coolant or suppresses it.
+ Mechanical Components: the internals of an air conditioner the motor, the chassis, the outlet, etc
+Image: https://html1-f.scribdassets.com/2laj4kz8ow6m7g6j/images/1-edc9a35590.jpg
+
+
+
+#Describe all inputs to each system and outputs from each system.
+
+WASHING MACHINE:
+Input wise:
+Door lock - open/closed
+ Water level sensor - open/closed 2 or 3 levels
+Wash motor tachometer - either digital using Hall IC or voltage generator.
+Temperature sensor Resistance (Thermistor) or open/closed thermostat.
+
+Then additionally you could have:
+Water flow sensor - Digital
+Analogue water level sensor - Resistance
+Out of balance sensor - Accelerometer
+
+Output wise you have
+Power to the door lock - mains voltage
+Power to the inlet valve/s - mains voltage
+Power to the wash motor or to the wash motor speed control board.
+Power to the heater element - mains voltage
+Power to the drain pump - mains voltage
+
+AIR CONDITIONER:
+Input devices: buttons, control dials etc. on the air conditioner housing (if there are any),
+plus buttons on the remote control (if there is one)
+
+Output devices: a sound emitter to go ‘beep’, LED lights, sometimes an LCD or similar display panel.
+In a sense, another output is cold air, but that may not be what the question is really asking for
+I would be inclined to not include that as an output of the device, since it’s more the main function of the device.
+
+#Classify the inputs and outputs based on their mode of interaction:
+
+-Visual - describing data carried by visible light
+
+-Audio - describing data carried by sound
+
+-Tactile - describing data carried by touch
+
+-Electronic - describing data encoded in electrical signals
+
+AIR CONDITIONER
+INPUTS
+buttons-visual
+control dials-visual
+OUTPUTS
+sound emitter-audio
+
+WASHING MACHINE
+INPUT
+water level-visual
+OUTPUT
+door lock-electronic
+washed clothes-visual
+sound that tells clothes are washed-audio
+
